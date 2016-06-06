@@ -8,4 +8,7 @@ Console application for download images from Google Picasa Web Albums.
  **Определение идентификатора пользователя:**  
 Допустим, у нас есть главная страница со списком альбомов, например такая:   https://picasaweb.google.com/117399782941050049827  
 Цифры в конце ссылки – это и есть идентификатор пользователя.  
-UserId = **117399782941050049827**
+UserId = **117399782941050049827**  
+  
+[Скачать](https://github.com/DenisBaturin/DenisBaturin.GooglePicasaDownloader/blob/master/download/DenisBaturin.GooglePicasaDownloader.zip?raw=true)  
+[Download](https://github.com/DenisBaturin/DenisBaturin.GooglePicasaDownloader/blob/master/download/DenisBaturin.GooglePicasaDownloader.zip?raw=true)
