@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("DenisBaturin.GooglePicasaDownloader")]
-[assembly: AssemblyDescription("Console application for download images from Google Picasa")]
+[assembly: AssemblyDescription("Console application for download images from Google Picasa Web Albums.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Denis Baturin")]
 [assembly: AssemblyProduct("DenisBaturin.GooglePicasaDownloader")]

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Reflection;
 using System.ServiceModel.Syndication;
 using System.Xml;
 
@@ -14,7 +15,14 @@ namespace DenisBaturin.GooglePicasaDownloader
 
         private static void Main(string[] args)
         {
-            Console.WriteLine("DenisBaturin.GooglePicasaDownloader");
+            var executingAssembly = Assembly.GetExecutingAssembly();
+            var assemblyInfo = new AssemblyInfoHelper(executingAssembly);
+
+            Console.Title = assemblyInfo.Name;
+
+            Console.WriteLine(assemblyInfo.Product);
+            Console.WriteLine($"{assemblyInfo.Name} (v. {assemblyInfo.Version})");
+            Console.WriteLine(assemblyInfo.Description);
             Console.WriteLine();
             Console.WriteLine(DateTime.Now);
 
